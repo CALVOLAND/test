@@ -1,2 +1,86 @@
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-06c996da-af9d-4939-ac27-074295909878"></div>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #192f59;">
+		<a class="navbar-brand" href="#">BOLETA </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="http://cetis120.edu.mx/">Cetis120.edu.mx</a>
+				</li>
+
+			</ul>
+			<form class="form-inline">
+                	<a href="../"><button type="button" class="btn btn-outline-danger"> Volver</button></a>
+            	</form>
+		</div>
+	</nav>
+
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt="">
+					<img src="img/logocetis.jpeg" alt="LogoCetis120">
+				</div>
+
+				<form class="login100-form validate-form" action="checklogin.php" method="post">
+					<span class="login100-form-title">
+						Consulta tu Boleta
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="CURP Necesaria">
+						<input class="input100" type="text" name="username" placeholder="CURP" required="">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-male" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="No. de Control Obligatorio">
+						<input class="input100" type="text" name="password" placeholder="No. de Control" required="">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Buscar
+						</button>
+					</div>
+
+
+					<div class="text-center p-t-136">
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script>
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+</body>
